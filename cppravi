@@ -1,10 +1,11 @@
 //diamond problem
+//Happy birthday to you 
 #include<iostream>
 #include<stdio.h>
 using namespace std;
 int main()
 { int n,m;
-  cout<<"enter the odd no of rows:";
+  cout<<"enter the odd number of rows:";
   cin>>n;
   m=n;
   for(int i=n;i>=1;i--)
