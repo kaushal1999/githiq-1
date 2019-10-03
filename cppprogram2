@@ -1,5 +1,5 @@
-#include<iostream>
-//aikansh yadav helped you
+#include<iostream.h>
+\\spelling error in the header file
 using namespace std;
 
 int main()
