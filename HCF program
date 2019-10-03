@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{ int a,b,j;
+  cout<<"enter the no to find HCF : ";
+  cin>>a>>b;
+  j=a<b?a:b;
+  if(a%j==0&&b%j==0)
+  cout<<"HCF is : "<<j;
+  else
+  while(a%j!=0||b%j!=0)
+  { j--;
+    if(a%j==0&&b%j==0)
+	{cout<<"HCF is :"<<j;
+	 break;
+    } 
+   
+  }
+	
+}
